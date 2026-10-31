@@ -21,7 +21,7 @@ st.set_page_config(
 # LOAD TRAINED MODEL
 # -----------------------------------
 
-with open("model/fake_news_model.pkl", "rb") as file:
+with open("fake_news_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 
